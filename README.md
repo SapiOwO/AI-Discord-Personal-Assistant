@@ -1,4 +1,4 @@
-# Discord AI Personal Assistant (Sentient Agent)
+# AI-Discord Personal Assistant (Sentient Agent)
 
 An elite, Discord assistant powered by **Ollama** for local AI inference. This agent is designed for native audio intelligence, unified long-term semantic memory, and proactive human-like engagement. 
 
