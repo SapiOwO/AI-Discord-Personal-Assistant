@@ -12,35 +12,35 @@ Optimized for both high-end rigs and "potato PCs", it allows small models (like 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🧠 Unified Episodic Memory (RAG via pgvector)
+### Unified Episodic Memory (RAG via pgvector)
 Powered by **PostgreSQL and pgvector (HNSW Indexing)**. The AI utilizes lightning-fast semantic vector search to recall past interactions from weeks or months ago. 
 * **Single Source of Truth**: Chat logs and semantic embeddings share the exact same database row, drastically reducing RAM usage and eliminating desync issues.
 * **Speaker Attribution**: Voice notes and texts are directly attributed to your display name, allowing the AI to flawlessly remember *who* said *what*.
 
-### ⚡ Small Model Optimization (Anti-Hallucination)
+### Small Model Optimization (Anti-Hallucination)
 * **Dynamic Lean Mode**: Automatically strips away heavy, verbose system instructions when using smaller context windows, preventing "Attention Dilution" in 4B-8B models.
 * **Assistant Truncation**: Prevents "Context Anchoring" by dynamically shortening the AI's own past verbose responses in the context window.
 * **Focused Vision Processing**: Vision caching is optimized so the AI only evaluates images precisely when they are uploaded, avoiding visual context hijacking.
 
-### 🎙️ Native Audiophile Intelligence
+### Native Audiophile Intelligence
 The AI features local "ears" and a "voice," running entirely on your CPU/GPU to keep VRAM balanced.
 * **Speech-to-Text (STT)**: Uses **Faster-Whisper** to transcribe Discord voice notes instantly.
 * **Text-to-Speech (TTS)**: Features a dual-engine setup with **Kokoro-82M** (high-fidelity) and **Piper TTS** (high-performance).
 * **Studio Mastering**: A built-in **Pedalboard** chain applies dynamic range compression and dithered reverb to ensure every response sounds like a professional broadcast.
 
-### 🎭 Realistic Human Interaction
+### Realistic Human Interaction
 * **Burst Mode**: Simulates natural human messaging by splitting long responses into rapid-fire, concise bursts.
 * **Hybrid Emotional Tags**: Recognizes tags like `[laugh]` or `[hmm]` to inject real human audio assets or mathematical pitch-shifted hums into synthesized speech.
 
-### 🕒 Proactive AFK & Room Awareness
+### Proactive AFK & Room Awareness
 * **Dynamic AFK Pings**: Proactively reaches out if the conversation goes silent for too long.
 * **NLP Reminders**: Intelligently parses intents like "remind me in 10 mins" to schedule automated follow-ups.
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 
 * **Python 3.12** (Strictly recommended for stability)
 * **Ollama** (Recommended: `qwen3-vl:4b-instruct` or `gemma:4b` for LLM, and `nomic-embed-text` for embeddings)
@@ -49,7 +49,7 @@ The AI features local "ears" and a "voice," running entirely on your CPU/GPU to 
 
 ---
 
-## 📦 Installation
+## Installation
 
 1.  **Clone the Repository**
     ```sh
