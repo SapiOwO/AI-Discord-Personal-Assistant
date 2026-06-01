@@ -4,7 +4,7 @@ An elite, Discord assistant powered by **Ollama** for local AI inference. This a
 
 Optimized for both high-end rigs and "potato PCs", it allows small models (like Qwen-4B) to perform complex tasks without hallucinations.
 
-### 🕒 Latest Updates
+### Latest Updates
 * **May 02, 2026**: **The Grand Architecture Rework**. Migrated entirely from MySQL + ChromaDB to a unified **PostgreSQL + pgvector** database. Introduced **"Lean Mode"** context feeding and Anti-Hallucination truncation to make small LLMs (<4B) incredibly stable and focused. Voice messages are now normalized in the RAG pipeline with proper speaker attribution.
 * **April 20, 2026**: Integrated **Kokoro-82M** for studio-grade TTS. Added **Dithered Tail Recovery** and **Audiophile Mastering** via Pedalboard. 
 * **April 13, 2026**: Implemented **Faster-Whisper** for local STT.
